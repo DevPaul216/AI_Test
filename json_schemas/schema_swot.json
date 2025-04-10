@@ -1,0 +1,48 @@
+{
+  "name": "swot_analysis",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "Strengths": {
+        "type": "array",
+        "description": "Internal attributes or resources that provide an advantage.",
+        "items": {
+          "type": "string",
+          "description": "A specific strength."
+        }
+      },
+      "Weaknesses": {
+        "type": "array",
+        "description": "Internal limitations or areas for improvement.",
+        "items": {
+          "type": "string",
+          "description": "A specific weakness."
+        }
+      },
+      "Opportunities": {
+        "type": "array",
+        "description": "External chances to improve performance or growth.",
+        "items": {
+          "type": "string",
+          "description": "A specific opportunity."
+        }
+      },
+      "Threats": {
+        "type": "array",
+        "description": "External factors that could cause trouble or pose risk.",
+        "items": {
+          "type": "string",
+          "description": "A specific threat."
+        }
+      }
+    },
+    "required": [
+      "Strengths",
+      "Weaknesses",
+      "Opportunities",
+      "Threats"
+    ],
+    "additionalProperties": false
+  },
+  "strict": true
+}

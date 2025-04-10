@@ -1,0 +1,11 @@
+You're helping to design a lean startup experiment using a Test Card. Fill out the following four sections with thoughtful, concise content related to a product, feature, or business assumption. Use clear, testable language and focus on one hypothesis.
+
+    Hypothesis – What do we believe will happen, and why is it important?
+
+    Test – What specific action will we take to test this hypothesis (e.g. an experiment, prototype, interview)?
+
+    Metric – What exactly will we measure to evaluate the outcome?
+
+    Criteria – What threshold or result will indicate that our hypothesis is correct?
+
+Keep it focused, avoid jargon, and assume this is for a real-world startup or product validation scenario.

@@ -1,0 +1,55 @@
+{
+  "name": "persona",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "Name": {
+        "type": "string",
+        "description": "The name of the persona."
+      },
+      "Demographics": {
+        "type": "string",
+        "description": "A single string describing key demographic information (e.g., age, gender, location, occupation)."
+      },
+      "About": {
+        "type": "string",
+        "description": "A brief background or story about the persona."
+      },
+      "Pains": {
+        "type": "array",
+        "description": "Key frustrations or pain points of the persona.",
+        "items": {
+          "type": "string",
+          "description": "A specific pain point."
+        }
+      },
+      "Gains": {
+        "type": "array",
+        "description": "What success or satisfaction looks like for the persona.",
+        "items": {
+          "type": "string",
+          "description": "A specific gain or benefit desired."
+        }
+      },
+      "Problem_Attitude": {
+        "type": "string",
+        "description": "How the persona feels or behaves toward the problem or challenge they face."
+      },
+      "Quote": {
+        "type": "string",
+        "description": "A representative quote that captures the persona’s mindset or experience."
+      }
+    },
+    "required": [
+      "Name",
+      "Demographics",
+      "About",
+      "Pains",
+      "Gains",
+      "Problem_Attitude",
+      "Quote"
+    ],
+    "additionalProperties": false
+  },
+  "strict": true
+}

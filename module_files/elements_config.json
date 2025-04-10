@@ -1,0 +1,781 @@
+{
+  "InnovationIssue": {
+    "display_name": "Problem to be solved",
+    "required": true,
+    "used_templates": null,
+    "prompt_name": "prompt_innovationissue",
+    "schema_name": "schema_generic_array",
+    "prompt_name_import": "prompt_import",
+    "schema_name_import": "schema_generic_array",
+    "max": 1,
+    "resources": [
+      "documents",
+      "websearch",
+      "website"
+    ]
+  },
+  "TargetGroup": {
+    "display_name": "Person affected by the problem",
+    "required": true,
+    "used_templates": null,
+    "prompt_name": "prompt_targetgroup",
+    "schema_name": "schema_generic_array",
+    "prompt_name_import": "prompt_import",
+    "schema_name_import": "schema_generic_array",
+    "max": 1,
+    "resources": [
+      "documents",
+      "websearch",
+      "website"
+    ]
+  },
+  "Resource_Group": {
+    "display_name": "Available resources to solve the problem",
+    "required": true,
+    "type": "group",
+    "used_templates": [
+      "Resources"
+    ],
+    "elements": [
+      "Physical Resources",
+      "Human Resources",
+      "Financial Resources",
+      "Intellectual Property",
+      "KnowHow and Information"
+    ],
+    "prompt_name": "prompt_resources",
+    "schema_name": "schema_resources",
+    "prompt_name_import": "prompt_import",
+    "schema_name_import": "schema_resources",
+    "resources": [
+      "documents",
+      "website",
+      "websearch"
+    ]
+  },
+  "Physical Resources": {
+    "display_name": "Physical Resources",
+    "required": false,
+    "max": 5
+  },
+  "Human Resources": {
+    "display_name": "Human Resources",
+    "required": false,
+    "max": 5
+  },
+  "Financial Resources": {
+    "display_name": "Financial Resources",
+    "required": false,
+    "max": 5
+  },
+  "Intellectual Property": {
+    "display_name": "Intellectual Property",
+    "required": false,
+    "max": 5
+  },
+  "KnowHow and Information": {
+    "display_name": "KnowHow and Information",
+    "required": false,
+    "max": 5
+  },
+  "HowMightWe": {
+    "display_name": "How-Might-We Questions",
+    "required": true,
+    "used_templates": [
+      "Problem"
+    ],
+    "prompt_name": "prompt_howmightwe",
+    "schema_name": "schema_generic_array",
+    "prompt_name_import": "prompt_import",
+    "schema_name_import": "schema_generic_array",
+    "max": 10,
+    "resources": [
+      "documents",
+      "website"
+    ]
+  },
+  "ResourcesCombined": {
+    "display_name": "ResourcesCombined",
+    "required": true,
+    "used_templates": [
+      "Resources"
+    ],
+    "prompt_name": "prompt_resourcescombined",
+    "schema_name": "schema_resourcescombined",
+    "prompt_name_import": "prompt_import",
+    "schema_name_import": "schema_resourcescombined",
+    "max": 1,
+    "resources": [
+      "documents",
+      "website"
+    ]
+  },
+  "StrategyCombined": {
+    "display_name": "StrategyCombined",
+    "required": true,
+    "used_templates": [
+      "Strategic Foundation"
+    ],
+    "prompt_name": "prompt_strategycombined",
+    "schema_name": "schema_strategycombined",
+    "prompt_name_import": "prompt_import",
+    "schema_name_import": "schema_strategycombined",
+    "max": 2,
+    "resources": [
+      "documents",
+      "website"
+    ]
+  },
+  "StrategicFoundation_Group": {
+    "display_name": "Strategic Foundation",
+    "required": true,
+    "type": "group",
+    "used_templates": [
+      "Strategic Foundation"
+    ],
+    "elements": [
+      "Organization Name",
+      "Mission",
+      "Vision",
+      "Values"
+    ],
+    "prompt_name": "prompt_strategicfoundation",
+    "schema_name": "schema_strategicfoundation",
+    "prompt_name_import": "prompt_import",
+    "schema_name_import": "schema_strategicfoundation",
+    "resources": [
+      "documents",
+      "website"
+    ]
+  },
+  "Organization Name": {
+    "display_name": "Organization Name",
+    "required": true,
+    "max": 1
+  },
+  "Mission": {
+    "display_name": "Mission",
+    "required": false,
+    "max": 1
+  },
+  "Vision": {
+    "display_name": "Vision",
+    "required": false,
+    "max": 1
+  },
+  "Values": {
+    "display_name": "Values",
+    "required": false,
+    "max": 10
+  },
+  "Persona_Group": {
+    "display_name": "Customer Persona",
+    "required": true,
+    "type": "group",
+    "used_templates": [
+      "Problem",
+      "Design Challenge"
+    ],
+    "elements": [
+      "Name",
+      "Demographics",
+      "About",
+      "Problem_Attitude",
+      "Image",
+      "Pains",
+      "Gains",
+      "Quote"
+    ],
+    "prompt_name": "prompt_persona",
+    "schema_name": "schema_persona",
+    "prompt_name_import": "prompt_import",
+    "schema_name_import": "schema_persona",
+    "resources": [
+      "documents",
+      "website"
+    ]
+  },
+  "Name": {
+    "display_name": "Name",
+    "required": true,
+    "max": 1
+  },
+  "Demographics": {
+    "display_name": "Demographics",
+    "required": true,
+    "max": 1
+  },
+  "About": {
+    "display_name": "About",
+    "required": true,
+    "max": 1
+  },
+  "Problem_Attitude": {
+    "display_name": "Problem Attitude",
+    "required": true,
+    "max": 1
+  },
+  "Pains": {
+    "display_name": "Pains",
+    "required": true,
+    "max": 5
+  },
+  "Gains": {
+    "display_name": "Gains",
+    "required": true,
+    "max": 5
+  },
+  "Image": {
+    "display_name": "Image",
+    "required": false,
+    "max": 1
+  },
+  "Quote": {
+    "display_name": "Quote",
+    "required": true,
+    "max": 1
+  },
+  "EmpathyMap_Group": {
+    "display_name": "Empathy Map",
+    "required": true,
+    "type": "group",
+    "used_templates": [
+      "Problem",
+      "Customer Persona"
+    ],
+    "elements": [
+      "SayDo",
+      "See",
+      "Pains",
+      "ThinkFeel",
+      "Hear",
+      "Gains"
+    ],
+    "prompt_name": "prompt_empathymap",
+    "schema_name": "schema_empathymap",
+    "prompt_name_import": "prompt_import",
+    "schema_name_import": "schema_empathymap",
+    "resources": [
+      "documents",
+      "website"
+    ]
+  },
+  "ThinkFeel": {
+    "display_name": "Think & Feel",
+    "required": true,
+    "max": 5
+  },
+  "SayDo": {
+    "display_name": "Say & Do",
+    "required": true,
+    "max": 5
+  },
+
+  "See": {
+    "display_name": "See",
+    "required": true,
+    "max": 5
+  },
+  "Hear": {
+    "display_name": "Hear",
+    "required": true,
+    "max": 5
+  },
+
+  "PESTEL_Group": {
+    "display_name": "PESTEL-Analysis",
+    "required": true,
+    "type": "group",
+    "used_templates": [
+      "Resources",
+      "Strategic Foundation"
+    ],
+    "elements": [
+      "Political",
+      "Economical",
+      "Social",
+      "Technological",
+      "Environmental",
+      "Legal"
+    ],
+    "prompt_name": "prompt_pestel",
+    "schema_name": "schema_pestel",
+    "prompt_name_import": "prompt_import",
+    "schema_name_import": "schema_pestel",
+    "resources": [
+      "documents",
+      "website",
+      "websearch"
+    ]
+  },
+  "Political": {
+    "display_name": "Political",
+    "required": true,
+    "max": 5
+  },
+  "Economical": {
+    "display_name": "Economical",
+    "required": true,
+    "max": 5
+  },
+  "Social": {
+    "display_name": "Social",
+    "required": true,
+    "max": 5
+  },
+  "Technological": {
+    "display_name": "Technological",
+    "required": true,
+    "max": 5
+  },
+  "Environmental": {
+    "display_name": "Environmental",
+    "required": true,
+    "max": 5
+  },
+  "Legal": {
+    "display_name": "Legal",
+    "required": true,
+    "max": 5
+  },
+  "SWOT_Group": {
+    "display_name": "SWOT-Analysis",
+    "required": true,
+    "type": "group",
+    "used_templates": [
+      "Strategic Foundation",
+      "Resources",
+      "PESTEL-Analysis"
+    ],
+    "elements": [
+      "Strengths",
+      "Weaknesses",
+      "Opportunities",
+      "Threats"
+    ],
+    "prompt_name": "prompt_swot",
+    "schema_name": "schema_swot",
+    "prompt_name_import": "prompt_import",
+    "schema_name_import": "schema_swot",
+    "resources": [
+      "documents",
+      "website"
+    ]
+  },
+  "Strengths": {
+    "display_name": "Strengths",
+    "required": true,
+    "max": 5
+  },
+  "Weaknesses": {
+    "display_name": "Weaknesses",
+    "required": true,
+    "max": 5
+  },
+  "Opportunities": {
+    "display_name": "Opportunities",
+    "required": true,
+    "max": 5
+  },
+  "Threats": {
+    "display_name": "Threats",
+    "required": true,
+    "max": 5
+  },
+  "JTBD_Group": {
+    "display_name": "Jobs-To-Be-Done",
+    "required": true,
+    "type": "group",
+    "used_templates": [
+      "Problem Statement",
+      "PESTEL-Analysis"
+    ],
+    "elements": [
+      "Situation",
+      "Motivation",
+      "Outcome",
+      "EmotionalJob"
+    ],
+    "prompt_name": "prompt_jtbd",
+    "schema_name": "schema_jtbd",
+    "prompt_name_import": "prompt_import",
+    "schema_name_import": "schema_jtbd",
+    "resources": [
+      "documents",
+      "website"
+    ]
+  },
+  "Situation": {
+    "display_name": "Situation",
+    "required": true,
+    "max": 5
+  },
+  "Motivation": {
+    "display_name": "Motivation",
+    "required": true,
+    "max": 5
+  },
+  "Outcome": {
+    "display_name": "Outcome",
+    "required": true,
+    "max": 5
+  },
+  "EmotionalJob": {
+    "display_name": "Emotional Job",
+    "required": true,
+    "max": 5
+  },
+  "ProblemStatement_Group": {
+    "display_name": "Problem Statement",
+    "required": true,
+    "type": "group",
+    "used_templates": [
+      "Empathy Map",
+      "Customer Persona"
+    ],
+    "elements": [
+      "Context",
+      "Cause",
+      "Consequence"
+    ],
+    "prompt_name": "prompt_problemstatement",
+    "schema_name": "schema_problemstatement",
+    "prompt_name_import": "prompt_import",
+    "schema_name_import": "schema_problemstatement",
+    "resources": [
+      "documents",
+      "website"
+    ]
+  },
+  "Context": {
+    "display_name": "Context",
+    "required": true,
+    "max": 5
+  },
+  "Cause": {
+    "display_name": "Cause",
+    "required": true,
+    "max": 5
+  },
+  "Consequence": {
+    "display_name": "Consequence",
+    "required": true,
+    "max": 5
+  },
+  "IdeasSimple": {
+    "display_name": "IdeasSimple",
+    "required": true,
+    "used_templates": [
+      "Jobs-To-Be-Done",
+      "SWOT-Analysis"
+    ],
+    "prompt_name": "prompt_ideassimple",
+    "schema_name": "schema_generic_array",
+    "prompt_name_import": "prompt_import",
+    "schema_name_import": "schema_generic_array",
+    "max": 10,
+    "resources": [
+      "documents",
+      "website",
+      "websearch"
+    ]
+  },
+  "IdeasABC": {
+    "display_name": "IdeasABC",
+    "required": true,
+    "used_templates": [
+      "Jobs-To-Be-Done",
+      "SWOT-Analysis"
+    ],
+    "prompt_name": "prompt_ideasabc",
+    "schema_name": "schema_generic_array",
+    "prompt_name_import": "prompt_import",
+    "schema_name_import": "schema_generic_array",
+    "max": 10,
+    "resources": [
+      "documents",
+      "website",
+      "websearch"
+    ]
+  },
+  "Ideas3": {
+    "display_name": "Ideas3",
+    "required": true,
+    "used_templates": [
+      "Jobs-To-Be-Done",
+      "SWOT-Analysis"
+    ],
+    "prompt_name": "prompt_ideas3",
+    "schema_name": "schema_generic_array",
+    "prompt_name_import": "prompt_import",
+    "schema_name_import": "schema_generic_array",
+    "max": 10,
+    "resources": [
+      "documents",
+      "website",
+      "websearch"
+    ]
+  },
+  "IdeasToEvaluate": {
+    "display_name": "Ideas to Evaluate",
+    "required": true,
+    "used_templates": [
+      "Ideation"
+    ],
+    "prompt_name": "prompt_ideastoevaluate",
+    "schema_name": "schema_generic_array",
+    "prompt_name_import": "prompt_import",
+    "schema_name_import": "schema_generic_array",
+    "max": 10,
+    "resources": [
+      "documents",
+      "website",
+      "websearch"
+    ]
+  },
+  "Idea Rating": {
+    "display_name": "Idea Rating",
+    "required": true,
+    "used_templates": [
+      "Idea Evaluation",
+      "Strategic Foundation",
+      "SWOT-Analysis"
+    ],
+    "prompt_name": "prompt_idearating",
+    "schema_name": "schema_generic_array",
+    "prompt_name_import": "prompt_import",
+    "schema_name_import": "schema_generic_array",
+    "max": 10,
+    "resources": [
+      "documents",
+      "website",
+      "websearch"
+    ]
+  },
+  "DFVS_Evaluation": {
+    "display_name": "DVFS_Evaluation",
+    "required": true,
+    "used_templates": [
+      "Idea Evaluation",
+      "Strategic Foundation",
+      "SWOT-Analysis"
+    ],
+    "prompt_name": "prompt_dfvs",
+    "schema_name": "schema_generic_array",
+    "prompt_name_import": "prompt_import",
+    "schema_name_import": "schema_generic_array",
+    "max": 10,
+    "resources": [
+      "documents",
+      "website",
+      "websearch"
+    ]
+  },
+  "ValuePropositionCanvas_Group": {
+    "display_name": "Value Proposition Canvas",
+    "required": true,
+    "type": "group",
+    "used_templates": [
+      "Idea Evaluation",
+      "Customer Persona",
+      "Empathy Map"
+    ],
+    "elements": [
+      "CustomerJobs",
+      "CustomerPains",
+      "CustomerGains",
+      "ProductsAndServices",
+      "PainRelievers",
+      "GainCreators"
+    ],
+    "prompt_name": "prompt_valuepropositioncanvas",
+    "schema_name": "schema_valuepropositioncanvas",
+    "prompt_name_import": "prompt_import",
+    "schema_name_import": "schema_valuepropositioncanvas",
+    "resources": [
+      "documents",
+      "website"
+    ]
+  },
+  "CustomerJobs": {
+    "display_name": "Customer Jobs",
+    "required": true,
+    "max": 5
+  },
+  "CustomerPains": {
+    "display_name": "Pains",
+    "required": true,
+    "max": 5
+  },
+  "CustomerGains": {
+    "display_name": "Gains",
+    "required": true,
+    "max": 5
+  },
+  "ProductsAndServices": {
+    "display_name": "Products and Services",
+    "required": true,
+    "max": 5
+  },
+  "PainRelievers": {
+    "display_name": "Pain Relievers",
+    "required": true,
+    "max": 5
+  },
+  "GainCreators": {
+    "display_name": "Gain Creators",
+    "required": true,
+    "max": 5
+  },
+  "BusinessModelCanvas_Group": {
+    "display_name": "Business Model Canvas",
+    "required": true,
+    "type": "group",
+    "used_templates": [
+      "Value Proposition Canvas",
+      "Strategic Foundation",
+      "Resources"
+    ],
+    "elements": [
+      "KeyPartnerships",
+      "KeyActivities",
+      "KeyResources",
+      "ValuePropositionSummary",
+      "CustomerRelationships",
+      "Channels",
+      "CustomerSegmentSummary",
+      "CostStructure",
+      "RevenueStreams"
+    ],
+    "prompt_name": "prompt_businessmodelcanvas",
+    "schema_name": "schema_businessmodelcanvas",
+    "prompt_name_import": "prompt_import",
+    "schema_name_import": "schema_businessmodelcanvas",
+    "resources": [
+      "documents",
+      "website"
+    ]
+  },
+  "KeyPartnerships": {
+    "display_name": "Key Partnerships",
+    "required": true,
+    "max": 5
+  },
+  "KeyActivities": {
+    "display_name": "Key Activities",
+    "required": true,
+    "max": 5
+  },
+  "KeyResources": {
+    "display_name": "Key Resources",
+    "required": true,
+    "max": 5
+  },
+  "ValuePropositionSummary": {
+    "display_name": "Value Proposition Summary",
+    "required": true,
+    "max": 5
+  },
+  "CustomerRelationships": {
+    "display_name": "Customer Relationships",
+    "required": true,
+    "max": 5
+  },
+  "Channels": {
+    "display_name": "Channels",
+    "required": true,
+    "max": 5
+  },
+  "CustomerSegmentSummary": {
+    "display_name": "Customer Segment Summary",
+    "required": true,
+    "max": 5
+  },
+  "CostStructure": {
+    "display_name": "Cost Structure",
+    "required": true,
+    "max": 5
+  },
+  "RevenueStreams": {
+    "display_name": "Revenue Streams",
+    "required": true,
+    "max": 5
+  },
+
+  "TestCard_Group":
+  {
+    "display_name": "Test Card",
+    "required": true,
+    "type": "group",
+    "used_templates": [
+      "Business Model Canvas"
+    ],
+    "elements": [
+      "Hypothesis",
+      "Test",
+      "Metric",
+      "Criteria"
+    ],
+    "prompt_name": "prompt_testcard",
+    "schema_name": "schema_testcard",
+    "prompt_name_import": "prompt_import",
+    "schema_name_import": "schema_testcard",
+    "resources": [
+      "documents",
+      "website"
+    ]
+  },
+
+  "Hypothesis": {
+    "display_name": "Hypothesis",
+    "required": true,
+    "max": 5
+  },
+  "Test": {
+    "display_name": "Test",
+    "required": true,
+    "max": 5
+  },
+  "Metric": {
+    "display_name": "Metric",
+    "required": true,
+    "max": 5
+  },
+  "Criteria": {
+    "display_name": "Criteria",
+    "required": true,
+    "max": 5
+  },
+
+  "Solution": {
+    "display_name": "Solution",
+    "required": true,
+    "used_templates": [
+      "Business Model Canvas",
+      "Customer Persona",
+      "Design Challenge"
+    ],
+    "prompt_name": "prompt_solution",
+    "schema_name": "schema_generic_array",
+    "prompt_name_import": "prompt_import",
+    "schema_name_import": "schema_generic_array",
+    "max": 1,
+    "resources": [
+    ]
+  },
+  "BusinessModelChanges": {
+    "display_name": "Business Model Changes",
+    "required": true,
+    "used_templates": [
+      "Business Model Canvas",
+      "Hypothesis Experiment Canvas"
+    ],
+    "prompt_name": "prompt_businessmodelchanges",
+    "schema_name": "schema_generic_array",
+    "prompt_name_import": "prompt_import",
+    "schema_name_import": "schema_generic_array",
+    "max": 5,
+    "resources": [
+    ]
+  }
+}

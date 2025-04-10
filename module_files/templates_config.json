@@ -1,0 +1,398 @@
+{
+  "Start": {
+    "display_name": "Create Project",
+    "connects": [
+      "Problem",
+      "Resources",
+      "Strategic Foundation"
+    ],
+    "elements": {}
+  },
+  "Problem": {
+    "display_name": "Problem",
+    "required": true,
+    "connects": [
+      "Design Challenge"
+    ],
+    "elements": [
+      "InnovationIssue",
+      "TargetGroup"
+    ],
+    "display": [
+      {
+        "format": [
+          1,
+          1
+        ],
+        "height": 200,
+        "background-color": "yellow",
+        "font-color": "black"
+      }
+    ]
+  },
+  "Resources": {
+    "display_name": "Resources",
+    "connects": [
+      "Design Challenge"
+    ],
+    "elements": [
+      "Resource_Group"
+    ],
+    "display": [
+      {
+        "format": [
+          5
+        ],
+        "height": 1000,
+        "background-color": "yellow",
+        "font-color": "black"
+      }
+    ]
+  },
+  "Strategic Foundation": {
+    "display_name": "Strategic Foundation",
+    "connects": [
+      "Design Challenge"
+    ],
+    "elements": [
+      "StrategicFoundation_Group"
+    ],
+    "display": [
+      {
+        "format": [
+          1,
+          1
+        ],
+        "height": 400,
+        "background-color": "yellow",
+        "font-color": "black"
+      },
+      {
+        "format": [
+          1,
+          1
+        ],
+        "height": 400,
+        "background-color": "yellow",
+        "font-color": "black"
+      }
+    ]
+  },
+  "Design Challenge": {
+    "display_name": "Design Challenge",
+    "required": true,
+    "connects": [
+      "Customer Persona",
+      "PESTEL-Analysis"
+    ],
+    "elements": [
+      "HowMightWe",
+      "ResourcesCombined",
+      "StrategyCombined"
+    ],
+    "display": [
+      {
+        "format": [
+          1
+        ],
+        "height": 200,
+        "background-color": "yellow",
+        "font-color": "black"
+      },
+      {
+        "format": [
+          1,
+          1
+        ],
+        "height": 400,
+        "background-color": "yellow",
+        "font-color": "black"
+      }
+    ]
+  },
+  "Customer Persona": {
+    "display_name": "Customer Persona",
+    "connects": [
+      "Empathy Map",
+      "Problem Statement"
+    ],
+    "elements": [
+      "Persona_Group"
+    ],
+    "display": [
+      {
+        "format": [
+          2,
+          2,
+          1
+        ],
+        "height": 300,
+        "background-color": "yellow",
+        "font-color": "black"
+      },
+      {
+        "format": [
+          1,
+          1,
+          1
+        ],
+        "height": 200,
+        "background-color": "yellow",
+        "font-color": "black"
+      }
+    ]
+  },
+  "Empathy Map": {
+    "display_name": "Empathy Map",
+    "connects": [
+      "Problem Statement"
+    ],
+    "elements": [
+      "EmpathyMap_Group"
+    ],
+    "display": [
+      {
+        "format": [
+          3,3
+        ],
+        "height": 600,
+        "background-color": "yellow",
+        "font-color": "black"
+      }
+    ]
+  },
+  "PESTEL-Analysis": {
+    "display_name": "PESTEL-Analysis",
+    "connects": [
+      "SWOT-Analysis",
+      "Jobs-To-Be-Done"
+    ],
+    "elements": [
+      "PESTEL_Group"
+    ],
+    "display": [
+      {
+        "format": [
+          3,
+          3
+        ],
+        "height": 800,
+        "background-color": "yellow",
+        "font-color": "black"
+      }
+    ]
+  },
+  "SWOT-Analysis": {
+    "display_name": "SWOT-Analysis",
+    "connects": [
+      "Ideation"
+    ],
+    "elements": [
+      "SWOT_Group"
+    ],
+    "display": [
+      {
+        "format": [
+          1,
+          1
+        ],
+        "height": 400,
+        "background-color": "yellow",
+        "font-color": "black"
+      },
+      {
+        "format": [
+          1,
+          1
+        ],
+        "height": 400,
+        "background-color": "yellow",
+        "font-color": "black"
+      }
+    ]
+  },
+  "Jobs-To-Be-Done": {
+    "display_name": "Jobs-to-be-done statement",
+    "connects": [
+      "Ideation"
+    ],
+    "elements": [
+      "JTBD_Group"
+    ],
+    "display": [
+      {
+        "format": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "height": 400,
+        "background-color": "yellow",
+        "font-color": "black"
+      }
+    ]
+  },
+  "Problem Statement": {
+    "display_name": "Problem Statement",
+    "connects": [
+      "Jobs-To-Be-Done"
+    ],
+    "elements": [
+      "ProblemStatement_Group"
+    ],
+    "display": [
+      {
+        "format": [
+          1,
+          1,
+          1
+        ],
+        "height": 400,
+        "background-color": "yellow",
+        "font-color": "black"
+      }
+    ]
+  },
+  "Ideation": {
+    "display_name": "Ideation",
+    "connects": [
+      "Idea Evaluation"
+    ],
+    "elements": [
+      "IdeasSimple",
+      "IdeasABC",
+      "Ideas3"
+    ],
+    "display": [
+      {
+        "format": [
+          1,
+          1,
+          1
+        ],
+        "height": 400,
+        "background-color": "yellow",
+        "font-color": "black"
+      }
+    ]
+  },
+  "Idea Evaluation": {
+    "display_name": "Idea Evaluation",
+    "connects": [
+      "Value Proposition Canvas",
+      "Ideation"
+    ],
+    "elements": [
+      "IdeasToEvaluate",
+      "DFVS_Evaluation"
+    ],
+    "display": [
+      {
+        "format": [
+          1,
+          1
+        ],
+        "height": 300,
+        "background-color": "yellow",
+        "font-color": "black"
+      }
+    ]
+  },
+  "Value Proposition Canvas": {
+    "display_name": "Value Proposition Canvas",
+    "connects": [
+      "Business Model Canvas"
+    ],
+    "elements": [
+      "ValuePropositionCanvas_Group"
+    ],
+    "display": [
+      {
+        "format": [
+          3,
+          3
+        ],
+        "height": 600,
+        "background-color": "lightblue",
+        "font-color": "black"
+      }
+    ]
+  },
+  "Business Model Canvas": {
+    "display_name": "Business Model Canvas",
+    "connects": [
+      "Test Card"
+    ],
+    "elements": [
+      "BusinessModelCanvas_Group"
+    ],
+    "display": [
+      {
+        "format": [
+          1,
+          2,
+          1,
+          2,
+          1
+        ],
+        "height": 600,
+        "background-color": "lightgray",
+        "font-color": "black"
+      },
+      {
+        "format": [
+          1,
+          1
+        ],
+        "height": 300,
+        "background-color": "lightgray",
+        "font-color": "black"
+      }
+    ]
+  },
+
+
+  "Test Card": {
+    "display_name": "Hypothesis-Experiment Test Card",
+    "connects": [
+      "End"
+    ],
+    "elements": [
+      "TestCard_Group"
+    ],
+    "display": [
+      {
+        "format": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "height": 600,
+        "background-color": "lightgray",
+        "font-color": "black"
+      }
+    ]
+  },
+
+  "End": {
+    "display_name": "Solution Summary",
+    "connects": [
+    ],
+    "elements": [
+      "Solution"
+    ],
+    "display": [
+      {
+        "format": [
+          1
+        ],
+        "height": 600,
+        "background-color": "lightgray",
+        "font-color": "black"
+      }
+    ]
+  }
+}
+

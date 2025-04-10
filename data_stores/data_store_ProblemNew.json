@@ -1,0 +1,311 @@
+{
+    "Start": {},
+    "Prompts": {},
+    "Problem": {
+        "InnovationIssue": [
+            "balancing research and teaching is difficult to handle for professors and researchers at universities."
+        ],
+        "TargetGroup": [
+            "professors, researchers and similar academic personal at austrian universities"
+        ]
+    },
+    "Resources": {
+        "Physical Resources": [
+            "Buildings in Hagenberg, Linz, Steyr, and Wels for each of the four campuses."
+        ],
+        "Human Resources": [
+            "FH-Prof. DI Dr. Michael Rabl MBA, MMag. Isolde Perndl (Institut head), 646 full-time equivalent teaching and instructional staff."
+        ],
+        "Financial Resources": [
+            "F&E revenue of 20.88 million Euros in 2019 from 546 ongoing projects."
+        ],
+        "Intellectual Property": [
+            "nothing relevant to this issue"
+        ],
+        "KnowHow and Information": [
+            "F&E projects and 487 scientific publications produced in 2019."
+        ]
+    },
+    "Strategic Foundation": {
+        "Organization Name": [
+            "Upper Austria University of Applied Sciences"
+        ],
+        "Mission": [
+            "To provide high-quality, practice-oriented education and applied research that empowers our students to excel in their chosen fields and contributes to societal progress."
+        ],
+        "Vision": [
+            "To be a leading institution in applied sciences, recognized for innovative education and impactful research that transforms the lives of individuals and fosters sustainable development in communities around the globe."
+        ],
+        "Values": [
+            "Integrity: We uphold the highest ethical standards in all our actions and decisions.",
+            "Innovation: We embrace creativity and strive to develop groundbreaking solutions that address societal challenges.",
+            "Excellence: We are committed to maintaining the highest quality in education and research, ensuring our contributions positively impact individuals and communities.",
+            "Collaboration: We foster partnerships with industries and communities to enhance learning opportunities and societal impact.",
+            "Inclusivity: We promote diversity and inclusive practices, ensuring all individuals have equitable access to our educational offerings and resources."
+        ]
+    },
+    "Design Challenge": {
+        "HowMightWe": [
+            "How might we encourage universities to recognize and reward the integration of high-quality teaching and research?"
+        ],
+        "ResourcesCombined": [
+            "The organization has a strong physical infrastructure with campuses located in Hagenberg, Linz, Steyr, and Wels. Human resources include a capable leadership team led by FH-Prof. DI Dr. Michael Rabl MBA and MMag. Isolde Perndl, along with 646 full-time teaching and instructional staff. Financially, it recorded F&E revenue of 20.88 million Euros in 2019, supported by 546 ongoing projects. Additionally, the institution has a solid foundation in knowledge dissemination, having produced 487 scientific publications related to its F&E projects in 2019."
+        ],
+        "StrategyCombined": [
+            "Upper Austria University of Applied Sciences aims to provide high-quality, practice-oriented education and conduct applied research, empowering students to excel and contribute to societal progress. The university's vision is to be a leading institution in applied sciences, recognized for its innovative educational approaches and impactful research that transforms lives while promoting sustainable development globally. They uphold core values including integrity, innovation, excellence, collaboration, and inclusivity, emphasizing ethical actions, creativity in problem-solving, high standards in education and research, partnerships with industries and communities, and equitable access to educational resources."
+        ]
+    },
+    "Customer Persona": {
+        "Name": [
+            "Dr. Andreas Bauer"
+        ],
+        "Demographics": [
+            "45 years old, Male, Professor of Applied Sciences at Upper Austria University of Applied Sciences, Linz, Austria."
+        ],
+        "About": [
+            "Dr. Andreas Bauer is a passionate professor who balances his role between teaching undergraduate students and conducting innovative applied research in technology. He believes strongly in the power of education to transform lives and is dedicated to creating a collaborative and inclusive learning environment. Despite his enthusiasm for his work, he often feels overwhelmed by the pressures of managing his dual responsibilities, and he finds it challenging to receive recognition for his efforts. Dr. Bauer stays connected to industry practices to ensure his teachings remain relevant and engaging for his students."
+        ],
+        "Problem_Attitude": [
+            "Dr. Bauer feels a blend of commitment and frustration; he is dedicated to his teaching and research but often struggles with the systemic challenges that prevent him from excelling in both."
+        ],
+        "Image": [
+            "nice looking guy"
+        ],
+        "Pains": [
+            "Limited institutional support for dedicating equal emphasis to teaching and research.",
+            "Feeling undervalued when balancing heavy workloads with teaching and research requirements.",
+            "Frustration with a lack of recognition for integrating high-quality teaching with research endeavors."
+        ],
+        "Gains": [
+            "Achieving a streamlined balance between teaching responsibilities and research projects.",
+            "Receiving institutional acknowledgment and rewards for his holistic approach to education and research.",
+            "Building strong connections with industry to enrich academic curriculum and research relevance."
+        ],
+        "Quote": [
+            "\"Teaching is not just imparting knowledge; it's about inspiring the next generation while pushing the boundaries of research. If only the institution could recognize this balance more effectively.\""
+        ]
+    },
+    "Empathy Map": {
+        "Think": [
+            "I need to effectively balance my roles as a professor and a researcher, but it's overwhelming. I often wonder if I am making a real impact on my students and my field, and if my efforts in integrating teaching and research are truly valued."
+        ],
+        "Feel": [
+            "I feel a mix of passion for my work and frustration from the lack of support and recognition. My commitment to teaching and research weighs heavily on me, and sometimes I doubt whether I can succeed in both areas given the systemic challenges I face."
+        ],
+        "See": [
+            "I observe my students' eagerness to learn but also their struggles with the curriculum, which I strive to make relevant. In the academic environment, I see colleagues who are also juggling similar challenges, and often our conversations are filled with shared concerns about workload and recognition."
+        ],
+        "Hear": [
+            "I hear students voicing their concerns about their educational experience, and their desire for more industry-relevant knowledge. Faculty discussions frequently touch on the pressures of balancing teaching and research, alongside murmurs of frustration about institutional support and administration."
+        ],
+        "Say": [
+            "\"I really enjoy seeing my students engage with the material. It\u2019s what keeps me motivated!\"",
+            "\"Finding time to research while teaching is really challenging. I often wish there were more resources or support.\"",
+            "\"I believe that teaching and research can complement each other, but it's hard to convince others of this.\""
+        ],
+        "Do": [
+            "I prepare engaging lectures that integrate my research findings to support my students' learning.",
+            "I attend industry conferences to build connections and stay updated on the latest technological advancements.",
+            "I collaborate with colleagues to develop interdisciplinary projects that enhance both teaching and research efforts."
+        ]
+    },
+    "PESTEL-Analysis": {
+        "Political": [
+            "Supportive government policies for higher education and research funding in Austria.",
+            "National strategies for higher education reform facilitating increased collaboration amongst institutions.",
+            "European Union initiatives aimed at enhancing cooperation in higher education across member states."
+        ],
+        "Economical": [
+            "we are in recession"
+        ],
+        "Social": [
+            "Rising focus on global citizenship and social responsibility among younger generations influencing curriculum design.",
+            "Increased public interest in educational equity, driving initiatives for inclusivity in higher education.",
+            "Demographic shifts in Austria, such as an aging population, requiring adaptations in educational offerings to cater to diverse learning needs."
+        ],
+        "Technological": [
+            "Advancements in digital education technologies enhancing teaching methods and delivery.",
+            "Increased reliance on online learning platforms post-pandemic shaping educational accessibility and student engagement.",
+            "Growing emphasis on tech-driven research leading to innovative academic partnerships with industries."
+        ],
+        "Environmental": [
+            "Increased emphasis on sustainability within higher education institutions, impacting course offerings and campus operations.",
+            "Pressure from society and governments for universities to adopt eco-friendly practices in infrastructure and research projects."
+        ],
+        "Legal": [
+            "Compliance with EU regulations governing higher education institutions impacting operational frameworks.",
+            "Evolving legal standards on research ethics and intellectual property affecting the conduct of academic projects."
+        ]
+    },
+    "SWOT-Analysis": {
+        "Strengths": [
+            "High-quality, practice-oriented education",
+            "Strong applied research focus"
+        ],
+        "Weaknesses": [
+            "Limited global recognition compared to traditional universities",
+            "Dependence on government funding for higher education"
+        ],
+        "Opportunities": [
+            "Increased funding opportunities through European Union initiatives",
+            "Growing interest in inclusive education practices and societal impact",
+            "Expansion into online learning and digital education technologies",
+            "Rising demand for sustainability-focused courses and research"
+        ],
+        "Threats": [
+            "Economic recession affecting funding and enrollment numbers",
+            "Increasing competition from other educational institutions"
+        ]
+    },
+    "Jobs-To-Be-Done": {
+        "Situation": [
+            "Dr. Bauer is feeling overwhelmed with competing responsibilities of teaching and research at a demanding academic institution.",
+            "Dr. Bauer experiences a lack of recognition for his integration of teaching and research duties."
+        ],
+        "Motivation": [
+            "He wants to gain acknowledgment and support for managing both teaching and research effectively.",
+            "He seeks to feel valued for his contributions to both education and research at his institution."
+        ],
+        "Outcome": [
+            "He hopes to find a balance that allows him to be effective in both roles and receive recognition for his efforts.",
+            "He wants to improve his job satisfaction and professional effectiveness through institutional support."
+        ],
+        "EmotionalJob": [
+            "He wants to feel appreciated and avoid feelings of unworthiness or frustration at work.",
+            "He aims to experience fulfillment in his academic role and alleviate the stress of competing demands."
+        ]
+    },
+    "Problem Statement": {
+        "Context": [
+            "Dr. Bauer juggles teaching and research duties at a demanding academic institution."
+        ],
+        "Cause": [
+            "Lack of institutional support to value and recognize the integration of teaching and research."
+        ],
+        "Consequence": [
+            "Dr. Bauer feels overwhelmed and unappreciated, risking his motivation and effectiveness."
+        ]
+    },
+    "Ideation": {
+        "IdeasSimple": [
+            "1. **Integrated Recognition Platform**: Develop a digital platform for faculty members like Dr. Bauer that tracks and highlights achievements in both teaching and research, linking to awards or funding opportunities to increase recognition.",
+            "2. **Holistic Faculty Support Program**: Create a mentorship program pairing new educators with experienced faculty who successfully balance both roles, providing support, guidance, and avenues for recognition.",
+            "3. **Funding Opportunities Workshop Series**: Organize a series of workshops that educate faculty on accessing EU funding initiatives, tailored to those integrating teaching with research effectively."
+        ],
+        "IdeasABC": [
+            "D - Digital Recognition Badges: Implement a system of digital badges for faculty achievements in teaching and research.",
+            "J - Joint Awards for Teaching and Research: Establish awards recognizing outstanding integration of teaching and research.",
+            "P - Paid Research Sabbaticals: Introduce paid sabbaticals for faculty to conduct research without teaching responsibilities."
+        ],
+        "Ideas3": [
+            "A 'Research-into-Teaching' weekend festival bringing students and faculty together to brainstorm how research can enhance the learning experience, with prizes for the most inventive ideas.",
+            "A 'day in the life' video series on social media showcasing how teaching and research coexist, aimed at building appreciation among students and faculty alike.",
+            "A collaborative blog where faculty can reflect on their teaching and research experiences, promoting peer support and recognition across the institution."
+        ]
+    },
+    "Idea Evaluation": {
+        "IdeasToEvaluate": [
+            "Develop an integrated platform that tracks faculty achievements in teaching and research to enhance recognition opportunities.",
+            "Introduce paid research sabbaticals for faculty to focus on research without teaching duties.",
+            "Produce a video series showcasing a 'day in the life' of faculty balancing teaching and research, fostering appreciation.",
+            "Organize workshops to educate faculty on accessing EU funding for those effectively merging teaching and research."
+        ],
+        "DFVS_Evaluation": [
+            "Paid research sabbaticals for faculty",
+            "Very valuable for research focus; manageable yet resource-intensive; 8/10.",
+            "8"
+        ]
+    },
+    "Value Proposition Canvas": {
+        "CustomerJobs": [
+            "Deliver engaging and impactful educational experiences to undergraduate students.",
+            "Conduct innovative applied research that contributes to the field of technology.",
+            "Integrate teaching and research to provide students with a relevant curriculum."
+        ],
+        "CustomerPains": [
+            "Limited institutional support for balancing teaching and research.",
+            "Feeling undervalued amidst heavy workloads and dual responsibilities.",
+            "Frustration with the lack of recognition for successfully integrating teaching and research."
+        ],
+        "CustomerGains": [
+            "Achieving a streamlined balance between teaching and research without feeling overwhelmed.",
+            "Receiving institutional recognition and rewards for a holistic educational approach.",
+            "Building strong partnerships with industry that enhance both research and teaching relevance."
+        ],
+        "ProductsAndServices": [
+            "Integrated platform for tracking faculty achievements in teaching and research.",
+            "Paid research sabbaticals allowing faculty to focus exclusively on research without teaching obligations.",
+            "Video series showcasing the dual roles of faculty to foster appreciation and recognition."
+        ],
+        "PainRelievers": [
+            "The integrated platform will provide visibility for faculty accomplishments, promoting appreciation and recognition.",
+            "Paid research sabbaticals reduce workload pressures, granting focused time for research pursuits.",
+            "Video content highlighting successful faculty experiences encourages institutional support and respect."
+        ],
+        "GainCreators": [
+            "The integrated platform enhances faculty profiles, leading to increased recognition and awards.",
+            "Paid sabbaticals allow creative breakthroughs in research, positively impacting faculty efficiency and satisfaction.",
+            "The video series raises awareness of faculty challenges, creating a supportive community and environment."
+        ]
+    },
+    "Business Model Canvas": {
+        "KeyPartnerships": [
+            "Industry partners for collaborative research initiatives",
+            "Educational institutions for joint programs",
+            "Government and funding bodies for financial support"
+        ],
+        "KeyActivities": [
+            "Delivering educational experiences through innovative teaching methods",
+            "Conducting applied research projects",
+            "Developing and maintaining the integrated platform for faculty achievements"
+        ],
+        "KeyResources": [
+            "Teaching and instructional staff (646 FTE)",
+            "Four campus buildings in Hagenberg, Linz, Steyr, and Wels",
+            "Existing F&E revenue streams"
+        ],
+        "ValuePropositionSummary": [
+            "Streamlined support for faculty balance between teaching and research",
+            "Paid research sabbaticals for focused research contributions",
+            "Recognition of faculty achievements through an integrated tracking platform"
+        ],
+        "CustomerRelationships": [
+            "Engagement through personalized faculty support programs",
+            "Community building via workshops and seminars",
+            "Feedback and improvement loops involving faculty and industry partners"
+        ],
+        "Channels": [
+            "University website and online platform for faculty tracking",
+            "Social media and video platforms for showcasing faculty efforts",
+            "Workshops and seminars to foster community engagement"
+        ],
+        "CustomerSegmentSummary": [
+            "Undergraduate students seeking high-quality education",
+            "Faculty members balancing teaching and research responsibilities",
+            "Industry partners looking for collaboration opportunities"
+        ],
+        "CostStructure": [
+            "Development and maintenance costs of the integrated platform",
+            "Salaries and benefits for teaching and instructional staff",
+            "Costs associated with conducting research and delivering education"
+        ],
+        "RevenueStreams": [
+            "F&E revenue from ongoing projects",
+            "Tuition fees from undergraduate programs",
+            "Grants and funding for applied research"
+        ]
+    },
+    "Hypothesis Experiment Canvas": {
+        "Observation": [],
+        "Hypothesis": [],
+        "Experiment": [],
+        "Impact": []
+    },
+    "Businees Model Iteration": {
+        "Impact": [],
+        "BusinessModelChanges": {}
+    },
+    "End": {
+        "Solution": {}
+    }
+}

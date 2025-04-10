@@ -1,0 +1,57 @@
+{
+  "name": "resource_group",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "Physical Resources": {
+        "type": "array",
+        "description": "A list of physical resources available or an explanation of the lack of physical resources.",
+        "items": {
+          "type": "string",
+          "description": "A specific physical resource or the indication that it is missing."
+        }
+      },
+      "Human Resources": {
+        "type": "array",
+        "description": "A list of human resources available or an explanation of the lack of human resources.",
+        "items": {
+          "type": "string",
+          "description": "A specific human resource or the indication that it is missing."
+        }
+      },
+      "Financial Resources": {
+        "type": "array",
+        "description": "A list of financial resources available or an explanation of the lack of financial resources.",
+        "items": {
+          "type": "string",
+          "description": "A specific financial resource or the indication that it is missing."
+        }
+      },
+      "Intellectual Property": {
+        "type": "array",
+        "description": "A list of intellectual properties available or an explanation of the lack of intellectual properties.",
+        "items": {
+          "type": "string",
+          "description": "A specific intellectual property or the indication that it is missing."
+        }
+      },
+      "KnowHow and Information": {
+        "type": "array",
+        "description": "A list of know-how and informational resources available or an explanation of the lack of such resources.",
+        "items": {
+          "type": "string",
+          "description": "A specific know-how or informational resource or the indication that it is missing."
+        }
+      }
+    },
+    "required": [
+      "Physical Resources",
+      "Human Resources",
+      "Financial Resources",
+      "Intellectual Property",
+      "KnowHow and Information"
+    ],
+    "additionalProperties": false
+  },
+  "strict": true
+}

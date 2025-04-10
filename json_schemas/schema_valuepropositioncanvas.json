@@ -1,0 +1,66 @@
+{
+    "name": "value_proposition_canvas",
+    "schema": {
+        "type": "object",
+        "properties": {
+            "CustomerJobs": {
+                "type": "array",
+                "description": "",
+                "items": {
+                    "type": "string",
+                    "description": "A ship."
+                }
+            },
+            "CustomerPains": {
+                "type": "array",
+                "description": ".",
+                "items": {
+                    "type": "string",
+                    "description": "Aty."
+                }
+            },
+            "CustomerGains": {
+                "type": "array",
+                "description": ".",
+                "items": {
+                    "type": "string",
+                    "description": "rce."
+                }
+            },
+            "ProductsAndServices": {
+                "type": "array",
+                "description": "T",
+                "items": {
+                    "type": "string",
+                    "description": "Aon."
+                }
+            },
+            "PainRelievers": {
+                "type": "array",
+                "description": "",
+                "items": {
+                    "type": "string",
+                    "description": "."
+                }
+            },
+            "GainCreators": {
+                "type": "array",
+                "description": "",
+                "items": {
+                    "type": "string",
+                    "description": "."
+                }
+            }
+        },
+        "required": [
+            "CustomerJobs",
+            "CustomerPains",
+            "CustomerGains",
+            "ProductsAndServices",
+            "PainRelievers",
+            "GainCreators"
+        ],
+        "additionalProperties": false
+    },
+    "strict": true
+}

@@ -1,0 +1,3 @@
+"Given the following Job to Be Done (JTBD) and SWOT analysis, generate a list of product ideas that solve the JTBD more effectively. Focus on leveraging strengths and opportunities, while addressing weaknesses and mitigating threats. Keep ideas practical, creative, and clearly tied to the JTBD."
+
+Come up with 10 ideas, each different from the other.

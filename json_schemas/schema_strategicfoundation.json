@@ -1,0 +1,36 @@
+{
+    "name": "strategicfoundation",
+    "schema": {
+        "type": "object",
+        "properties": {
+            "Organization Name": {
+                "type": "string",
+                "description": "The name of the organization."
+            },
+            "Mission": {
+                "type": "string",
+                "description": "The mission statement of the organization, describing its purpose and goals."
+            },
+            "Vision": {
+                "type": "string",
+                "description": "The vision statement of the organization, describing its long-term aspirations."
+            },
+            "Values": {
+                "type": "array",
+                "description": "The core values that guide the organization.",
+                "items": {
+                    "type": "string",
+                    "description": "A specific core value."
+                }
+            }
+        },
+        "required": [
+            "Organization Name",
+            "Mission",
+            "Vision",
+            "Values"
+        ],
+        "additionalProperties": false
+    },
+    "strict": true
+}

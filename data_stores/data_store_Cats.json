@@ -1,0 +1,115 @@
+{
+    "Start": {},
+    "Problem": {
+        "InnovationIssue": [
+            "Cats often bother their owners when they are working from home"
+        ],
+        "TargetGroup": [
+            "young austrians living on their own and working in home office"
+        ]
+    },
+    "Resources": {
+        "Physical Resources": [],
+        "Human Resources": [],
+        "Financial Resources": [],
+        "Intellectual Property": [],
+        "KnowHow and Information": []
+    },
+    "Strategic Foundation": {
+        "Organization Name": {},
+        "Mission": {},
+        "Vision": {},
+        "Values": {}
+    },
+    "Design Challenge": {
+        "HowMightWe": [
+            "How might we create a comfortable work environment at home that accommodates both the needs of young Austrians and their cats?"
+        ],
+        "ResourcesCombined": {},
+        "StrategyCombined": {}
+    },
+    "Customer Persona": {
+        "Name": [],
+        "Demographics": [],
+        "About": [],
+        "Problem_Attitude": [],
+        "Image": [],
+        "Pains": [],
+        "Gains": [],
+        "Quote": []
+    },
+    "Empathy Map": {
+        "Think": {},
+        "Feel": {},
+        "See": {},
+        "Hear": {},
+        "Say": {},
+        "Do": {}
+    },
+    "PESTEL-Analysis": {
+        "Political": [],
+        "Economical": [],
+        "Social": [],
+        "Technological": [],
+        "Environmental": [],
+        "Legal": []
+    },
+    "SWOT-Analysis": {
+        "Strengths": {},
+        "Weaknesses": {},
+        "Opportunities": {},
+        "Threats": {}
+    },
+    "Jobs-To-Be-Done": {
+        "Situation": [],
+        "Motivation": [],
+        "Outcome": [],
+        "EmotionalJob": []
+    },
+    "Problem Statement": {
+        "Context": {},
+        "Cause": {},
+        "Consequence": {}
+    },
+    "Ideation": {
+        "IdeasSimple": [],
+        "IdeasABC": {},
+        "Ideas3": {}
+    },
+    "Idea Evaluation": {
+        "IdeasToEvaluate": [],
+        "DFVS_Evaluation": {}
+    },
+    "Value Proposition Canvas": {
+        "CustomerJobs": {},
+        "CustomerPains": {},
+        "CustomerGains": {},
+        "ProductsAndServices": {},
+        "PainRelievers": {},
+        "GainCreators": {}
+    },
+    "Business Model Canvas": {
+        "KeyPartnerships": {},
+        "KeyActivities": {},
+        "KeyResources": {},
+        "ValuePropositionSummary": {},
+        "CustomerRelationships": {},
+        "Channels": {},
+        "CustomerSegmentSummary": {},
+        "CostStructure": {},
+        "RevenueStreams": {}
+    },
+    "Hypothesis Experiment Canvas": {
+        "Observation": {},
+        "Hypothesis": {},
+        "Experiment": {},
+        "Impact": {}
+    },
+    "Businees Model Iteration": {
+        "Impact": {},
+        "BusinessModelChanges": {}
+    },
+    "End": {
+        "Solution": {}
+    }
+}

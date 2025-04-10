@@ -1,0 +1,21 @@
+{
+  "name": "text_points",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "points": {
+        "type": "array",
+        "description": "A list of information units.",
+        "items": {
+          "type": "string",
+          "description": "Piece of information which can stand by itself."
+        }
+      }
+    },
+    "required": [
+      "points"
+    ],
+    "additionalProperties": false
+  },
+  "strict": true
+}

@@ -1,0 +1,48 @@
+{
+  "name": "JTBD",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "Situation": {
+        "type": "array",
+        "description": "The context or circumstances that lead to the job being initiated.",
+        "items": {
+          "type": "string",
+          "description": "A specific situation or trigger."
+        }
+      },
+      "Motivation": {
+        "type": "array",
+        "description": "The underlying reason or driver behind why the job is pursued.",
+        "items": {
+          "type": "string",
+          "description": "A motivating factor for the job."
+        }
+      },
+      "Outcome": {
+        "type": "array",
+        "description": "The intended result or goal of completing the job.",
+        "items": {
+          "type": "string",
+          "description": "A desired outcome or benefit."
+        }
+      },
+      "EmotionalJob": {
+        "type": "array",
+        "description": "The emotional or psychological needs tied to the job.",
+        "items": {
+          "type": "string",
+          "description": "An emotional need or feeling related to the job."
+        }
+      }
+    },
+    "required": [
+      "Situation",
+      "Motivation",
+      "Outcome",
+      "EmotionalJob"
+    ],
+    "additionalProperties": false
+  },
+  "strict": true
+}

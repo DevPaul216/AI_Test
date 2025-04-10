@@ -1,0 +1,9 @@
+You will get a list of ideas.
+I want you to go through this list, and evaluate each idea in terms of desireablility (would the user want this?), viablility (should we develop this solution for the user?), feasability (can we develop it?) and sustainability (is it a long term solution and good for the environment?)
+as an ouptut provide me for each of the ideas with the following text:
+
+{Quick idea description in 5 words}
+
+{Summary of the evaluation and rating in less than 40 words}
+
+{A rating on a scale of 1 to 10}

@@ -1,0 +1,7 @@
+You will be given a variety of ideas. Your task is to rephrase and list them in a clear, consistent format.
+
+Each idea should be written as a single sentence, no longer than 20 words, describing a unique product or service that solves a specific problem.
+
+Include a brief explanation of the idea's approach and purpose, but keep it concise—this is just an idea, not a full pitch.
+
+Do not include numbering, bullet points, symbols, or emojis in your output.

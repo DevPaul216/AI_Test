@@ -1,0 +1,27 @@
+{
+  "name": "problem_statement",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "Context": {
+        "type": "string",
+        "description": "The background or setting in which the problem situation occurs."
+      },
+      "Cause": {
+        "type": "string",
+        "description": "The reasons or root causes behind the problem."
+      },
+      "Consequence": {
+        "type": "string",
+        "description": "The negative impact or result of the problem."
+      }
+    },
+    "required": [
+      "Context",
+      "Cause",
+      "Consequence"
+    ],
+    "additionalProperties": false
+  },
+  "strict": true
+}

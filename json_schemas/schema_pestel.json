@@ -1,0 +1,66 @@
+{
+  "name": "pestel_analysis",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "Political": {
+        "type": "array",
+        "description": "Political factors affecting the subject (e.g., regulations, government stability).",
+        "items": {
+          "type": "string",
+          "description": "A political factor."
+        }
+      },
+      "Economic": {
+        "type": "array",
+        "description": "Economic factors (e.g., inflation, interest rates, economic growth).",
+        "items": {
+          "type": "string",
+          "description": "An economic factor."
+        }
+      },
+      "Social": {
+        "type": "array",
+        "description": "Social factors (e.g., demographics, cultural trends, lifestyle changes).",
+        "items": {
+          "type": "string",
+          "description": "A social factor."
+        }
+      },
+      "Technological": {
+        "type": "array",
+        "description": "Technological factors (e.g., innovation, automation, R&D activity).",
+        "items": {
+          "type": "string",
+          "description": "A technological factor."
+        }
+      },
+      "Environmental": {
+        "type": "array",
+        "description": "Environmental factors (e.g., climate change, sustainability practices).",
+        "items": {
+          "type": "string",
+          "description": "An environmental factor."
+        }
+      },
+      "Legal": {
+        "type": "array",
+        "description": "Legal factors (e.g., laws, regulations, employment standards).",
+        "items": {
+          "type": "string",
+          "description": "A legal factor."
+        }
+      }
+    },
+    "required": [
+      "Political",
+      "Economic",
+      "Social",
+      "Technological",
+      "Environmental",
+      "Legal"
+    ],
+    "additionalProperties": false
+  },
+  "strict": true
+}

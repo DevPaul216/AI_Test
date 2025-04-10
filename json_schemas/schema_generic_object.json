@@ -1,0 +1,17 @@
+{
+  "name": "text_paragraph",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "paragraph": {
+        "type": "string",
+        "description": "A single paragraph of contionus text."
+      }
+    },
+    "required": [
+      "paragraph"
+    ],
+    "additionalProperties": false
+  },
+  "strict": true
+}

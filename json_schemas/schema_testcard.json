@@ -1,0 +1,32 @@
+{
+  "name": "test_card",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "Hypothesis": {
+        "type": "string",
+        "description": "What do we believe? A concise statement of the assumption or belief."
+      },
+      "Test": {
+        "type": "string",
+        "description": "What will we do to verify it? A description of the experiment or method."
+      },
+      "Metric": {
+        "type": "string",
+        "description": "What will we measure? The key metric or data point to track."
+      },
+      "Criteria": {
+        "type": "string",
+        "description": "What result will tell us we’re right? The success criteria for the experiment."
+      }
+    },
+    "required": [
+      "Hypothesis",
+      "Test",
+      "Metric",
+      "Criteria"
+    ],
+    "additionalProperties": false
+  },
+  "strict": true
+}

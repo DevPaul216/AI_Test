@@ -1,0 +1,25 @@
+I will provide you with some information.
+Based on this information i want you to create a bsuiness model around it. I want you to present it to me as the busines model canvas.
+Use the standard 9 building blocks of the Business Model Canvas:
+
+    Customer Segments
+
+    Value Propositions
+
+    Channels
+
+    Customer Relationships
+
+    Revenue Streams
+
+    Key Resources
+
+    Key Activities
+
+    Key Partnerships
+
+    Cost Structure
+
+For each block, clearly identify and summarize the key points in a concise and business-like tone. If any information is missing or unclear, make reasonable assumptions and highlight them. Do not repeat or summarize all the input—focus on extracting and organizing the most relevant parts.
+
+Once you're ready, I’ll paste in the information about the business.

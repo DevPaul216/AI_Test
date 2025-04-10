@@ -1,0 +1,42 @@
+{
+  "name": "how-might-we-questions",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "points": {
+        "type": "array",
+        "description": "List of all How-Might-We questions you came up with.",
+        "items": {
+          "type": "object",
+          "properties": {
+            "content": {
+              "type": "string",
+              "description": "One How-Might-We question"
+            },
+            "importance": {
+              "type": "string",
+              "description": "The level of importance or relevance to the task."
+            },
+            "reference": {
+              "type": "array",
+              "description": "List of citations or sources used for formulating the question",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "content",
+            "importance"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": [
+      "points"
+    ],
+    "additionalProperties": false
+  },
+  "strict": false
+}

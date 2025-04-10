@@ -1,0 +1,50 @@
+{
+  "name": "empathy_map",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "Think": {
+        "type": "string",
+        "description": "What the persona thinks."
+      },
+      "Feel": {
+        "type": "string",
+        "description": "What the persona feels."
+      },
+      "See": {
+        "type": "string",
+        "description": "The viewpoint of the persona."
+      },
+      "Hear": {
+        "type": "string",
+        "description": "What the persona usually hears in a day."
+      },
+      "Say": {
+        "type": "array",
+        "description": "What the persona usually says in a day",
+        "items": {
+          "type": "string",
+          "description": "A hobby of the persona."
+        }
+      },
+      "Do": {
+        "type": "array",
+        "description": "What the persona usually does in a day.",
+        "items": {
+          "type": "string",
+          "description": "A hobby of the persona."
+        }
+      }
+    },
+    "required": [
+      "Think",
+      "Feel",
+      "See",
+      "Hear",
+      "Say",
+      "Do"
+    ],
+    "additionalProperties": false
+  },
+  "strict": true
+}

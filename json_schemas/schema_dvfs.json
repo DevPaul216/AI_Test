@@ -1,0 +1,47 @@
+{
+    "schema": {
+        "type": "object",
+        "properties": {
+            "Desirability": {
+                "type": "array",
+                "description": "An evaluation of how appealing the product concept is to the target audience, considering factors such as user needs, preferences, and market demand.",
+                "items": {
+                    "type": "string",
+                    "description": "A specific aspect of desirability, such as user needs, preferences, or market demand."
+                }
+            },
+            "Viability": {
+                "type": "array",
+                "description": "An evaluation of the business viability of the product concept, including its potential profitability, market fit, and alignment with organizational goals.",
+                "items": {
+                    "type": "string",
+                    "description": "A specific aspect of viability, such as profitability, market fit, or alignment with goals."
+                }
+            },
+            "Feasibility": {
+                "type": "array",
+                "description": "An evaluation of the technical and operational feasibility of the product concept, assessing whether it can be realistically developed and implemented.",
+                "items": {
+                    "type": "string",
+                    "description": "A specific aspect of feasibility, such as technical challenges, resource availability, or timeline constraints."
+                }
+            },
+            "Sustainability": {
+                "type": "array",
+                "description": "An evaluation of the sustainability of the product concept, focusing on its long-term environmental, social, and economic impact.",
+                "items": {
+                    "type": "string",
+                    "description": "A specific aspect of sustainability, such as environmental impact, ethical considerations, or resource efficiency."
+                }
+            }
+        },
+        "required": [
+            "Desirability",
+            "Viability",
+            "Feasibility",
+            "Sustainability"
+        ],
+        "additionalProperties": false,
+        "strict": false
+    }
+}
