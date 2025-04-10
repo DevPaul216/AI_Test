@@ -66,7 +66,7 @@ def init_session_state():
 
 
 def init_page():
-    st.set_page_config(page_title="Innovation Navigator", layout="wide", page_icon="./misc/LogoFH.png",
+    st.set_page_config(page_title="Innovation Navigator", layout="wide",
                        initial_sidebar_state=sst.sidebar_state)
     st.markdown(
         """
@@ -713,9 +713,7 @@ def about_view():
 def open_sidebar():
     sst.sidebar_state = "expanded"
 
-    # Add a logo to the top of th esidebar
 
-    st.sidebar.image(r".\misc\LogoFH.png", use_container_width=True)
 
     # Button in sidebar to go back to overview
     if st.sidebar.button(label="Overview", type="primary", use_container_width=True):
